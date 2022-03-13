@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
 import "../styles/homePage.scss";
-import imgPerfil from "../Assets/perfil.jpeg";
 
 function Home() {
   return (
@@ -20,7 +19,7 @@ function Home() {
           </button>
           <div className="img">
             <img
-              src={imgPerfil} alt="imagem de perfil" />
+              src="" alt="imagem de perfil" />
           </div>
         </div>
       </div>
